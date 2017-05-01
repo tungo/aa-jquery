@@ -1,0 +1,27 @@
+ul {
+  display: block;
+  width: 610px;
+  height: 610px;
+}
+
+ul li {
+  float:left;
+  display: block;
+  width: 33%;
+  height: 33%;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+ul li:hover {
+  background-color: yellow;
+}
+
+ul li {
+  font-size: 150px;
+  text-align: center;
+}
+
+.white {
+  background-color: white;
+}
