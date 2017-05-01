@@ -1,0 +1,58 @@
+.hanoi {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.tower {
+    border-bottom: 5px solid black;
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    vertical-align: bottom;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+
+.tower:hover {
+  border-color: blue;
+}
+
+.disk {
+    background: grey;
+    margin: 10px auto;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.disk#d1 {
+    width: 30%;
+}
+.disk#d2 {
+    width: 60%;
+}
+.disk#d3 {
+    width: 90%;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.tower.red {
+  border-color: red;
+}
+
+.empty {
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 20px;
+}
