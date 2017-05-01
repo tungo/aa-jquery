@@ -13,7 +13,7 @@ ul li {
   background-color: grey;
 }
 
-ul li:hover {
+ul li.player:hover {
   background-color: yellow;
 }
 
@@ -24,4 +24,14 @@ ul li {
 
 .white {
   background-color: white;
+}
+
+.loser {
+  color: red;
+  background-color: white;
+}
+
+.winner {
+  color: white;
+  background-color: green;
 }
