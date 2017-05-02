@@ -1,0 +1,21 @@
+.snake {
+  display:flex;
+  border: 20px solid black;
+  width: 440px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.green {
+  background: green;
+}
